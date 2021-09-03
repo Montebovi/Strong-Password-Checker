@@ -11,15 +11,7 @@ namespace LeetCode
     {
       Console.WriteLine("Hello World!");
       var s = new Solution();
-      //var d = s.LenGroups("pipppo123333443333", out args, ou );
-
-      //foreach (var k in d.Keys)
-      //{
-      //  Console.WriteLine($"Seq da {k} sono {d[k]}");
-      //}
-
       Console.WriteLine(s.StrongPasswordChecker("..."));
-
     }
   }
   
