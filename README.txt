@@ -7,6 +7,6 @@ Given a string password, return the minimum number of steps required to make pas
 
 In one step, you can:
 
-Insert one character to password,
-Delete one character from password, or
-Replace one character of password with another character.
+* Insert one character to password,
+* Delete one character from password, or
+* Replace one character of password with another character.
