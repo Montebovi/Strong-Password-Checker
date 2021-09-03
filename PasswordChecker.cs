@@ -140,17 +140,6 @@ namespace LeetCode
         //pwdLen = MIN_LEN;
       }
 
-
-      //if (pwdLen < MIN_LEN)
-      //  gruppi.Clear();
-
-      //while (pwdLen < MIN_LEN)
-      //{
-      //  numStepInsert++;
-      //  pwdLen++;
-      //}
-
-
       var numReplPerGruppi = 0;
       foreach (var k in gruppi.Keys)
         numReplPerGruppi += (k / 3)*gruppi[k];
